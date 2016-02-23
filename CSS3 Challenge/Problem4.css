@@ -1,0 +1,27 @@
+ul{
+  list-style-type: none;
+}
+
+li{
+  display: inline;
+}
+
+li a{
+  color: #b77a0b;
+  text-decoration: none;
+  padding: 5px;
+  border: 1px solid #b77a0b;
+}
+
+a:hover{
+  background-color: #b77a0b;
+  color: white;
+}
+
+.prev {
+  border: none;
+}
+
+.next {
+  border: none;
+}

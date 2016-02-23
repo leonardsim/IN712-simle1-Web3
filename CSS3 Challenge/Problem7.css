@@ -1,0 +1,26 @@
+body{
+  background-image: url('images/website-background-rough-surface.jpg');
+  background-repeat: repeat;
+}
+
+#rc1{
+  padding: 60px 20px 60px 20px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  background-color: green;
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px black;
+}
+
+#rc2{
+  padding: 0px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  background-image: url('images/pink134.jpg');
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px black;
+}

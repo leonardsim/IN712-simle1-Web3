@@ -1,0 +1,50 @@
+#divProb1{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#divOne{
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px #333;
+}
+
+#divTwo{
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px #333;
+}
+
+#divThree{
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px #333;
+}
+
+#divFour{
+  width: 200px;
+  height: 100px;
+  background-color: pink;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px #333;
+}
+
+#divFive{
+  width: 200px;
+  height: 100px;
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px #333;
+}
