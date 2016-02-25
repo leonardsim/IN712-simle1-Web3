@@ -1,0 +1,13 @@
+.box1{
+  background-color: yellow;
+  position: absolute;
+}
+
+.innerBox{
+  width: 10%;
+  height: 10%;
+  background-color: rgba(255, 0, 0, 0.5);;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}

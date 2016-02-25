@@ -1,0 +1,56 @@
+#wrapper{
+  margin-left: 25%;
+  margin-right: 25%;
+  position: relative;
+}
+
+header{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+}
+
+nav{
+  background-color: grey;
+  padding: 20px;
+}
+
+ul{
+  margin: 0px;
+  list-style-type: none;
+  text-align: center;
+}
+
+li{
+  display: inline;
+  margin-right: 40px;
+}
+
+aside{
+  float: left;
+  font-size: 20px;
+  color: red;
+  width: 20%;
+}
+
+section{
+  background-color: yellow;
+  float: right;
+  width: 70%;
+  padding: 20px;
+}
+
+article{
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid orange;
+}
+
+footer{
+  background-color: black;
+  clear: both;
+  color: white;
+  text-align: center;
+}

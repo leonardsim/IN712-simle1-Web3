@@ -1,0 +1,15 @@
+.box1{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  background-color: orange;
+}
+
+.innerBox{
+  width: 20%;
+  height:20%;
+  position: absolute;
+  background-color: red;
+  top: 0px;
+  right: 0px;
+}

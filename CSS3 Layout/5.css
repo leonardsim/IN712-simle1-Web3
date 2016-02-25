@@ -1,0 +1,14 @@
+.box1{
+  background-color: yellow;
+  position: absolute;
+}
+
+.image{
+  height: 25%;
+  width: 25%;
+}
+
+figure{
+  position: relative;
+  left: 35%;
+}
