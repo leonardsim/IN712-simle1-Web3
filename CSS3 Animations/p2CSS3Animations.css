@@ -1,0 +1,110 @@
+#transformDemo{
+  margin: 200px;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  background-color: pink;
+  border: 1px solid black;
+  transition: all 2s ease 0s;
+}
+
+#transformDemo:hover{
+  -webkit-transform: skew(20deg, 45deg);
+}
+
+#multipleTransition{
+  margin: 200px;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  background-color: pink;
+  border: 1px solid black;
+  transition: all 4s ease 0s;
+}
+
+#multipleTransition:hover{
+  transform: scale(1.5, 1.5);
+  background-color: purple;
+  border-radius: 100px;
+}
+
+#textAnimation{
+  width: 300px;
+  line-height: 200px;
+  margin: 0 auto;
+  transition: all 3s ease 0s;
+  text-shadow: 1px 1px #ff0000;
+}
+
+#textAnimation:hover{
+  transform: rotate(360deg);
+  color: brown;
+  font-size: 40px;
+}
+
+#delayDemo div{
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: #eee;
+  transition: all 2s ease-in-out 0s;
+}
+
+#delayDemo {
+  position: relative;
+  height: 400px;
+  width: 300px;
+}
+
+#delayDemo1{
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+}
+
+#delayDemo2{
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+}
+
+#delayDemo3{
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+}
+
+#delayDemo4{
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+}
+
+#delayDemo:hover #delayDemo1{
+  transform: translate(-100px, -100px);
+  transition-delay: 0s;
+  background-color: red;
+}
+
+#delayDemo:hover #delayDemo2{
+  transform: translate(100px, -100px);
+  transition-delay: 1s;
+  background-color: green;
+}
+
+#delayDemo:hover #delayDemo3{
+  transform: translate(100px, 100px);
+  transition-delay: 2s;
+  background-color: cornflowerblue;
+}
+
+#delayDemo:hover #delayDemo4{
+  transform: translate(-100px, 100px);
+  transition-delay: 3s;
+  background-color: goldenrod;
+}
