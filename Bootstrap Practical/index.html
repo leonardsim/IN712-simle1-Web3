@@ -12,49 +12,49 @@
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 <!-- Credit card form -->
-<div class="">
-    <div class="">
-        <div class="">
-            <div class="">
-                <div class="">
-                    <h3 class=""><img class="pull-right" src="http://i76.imgup.net/accepted_c22e0.png">Payment Details</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><img class="pull-right" src="http://i76.imgup.net/accepted_c22e0.png">Payment Details</h3>
                 </div>
-                <div class="">
+                <div class="panel-body">
                     <form role="form">
-                        <div class="">
+                        <div class="row">
                             <div class="col-xs-12">
-                                <div class="">
+                                <div class="form-group">
                                     <label for="cardNumber">CARD NUMBER</label>
-                                    <div class="">
-                                        <input type="text" class="" name="cardNumber" placeholder="Valid Card Number" required autofocus data-stripe="number" />
-                                        <span class=""><i class=""></i></span>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="cardNumber" placeholder="Valid Card Number" required autofocus data-stripe="number" />
+                                        <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
                                     </div>
-                                </div>                            
+                                </div>
                             </div>
                         </div>
-                        <div class="">
-                            <div class="">
-                                <div class="">
+                        <div class="row">
+                            <div class="col-xs-5 col-md-5">
+                                <div class="form-group">
                                     <label for="cvCode">NAME ON CARD</label>
-                                    <input type="password" class="" name="cvCode" placeholder="Name as it appears on card" required data-stripe="cvc" />
+                                    <input type="text" class="form-control" name="cvCode" placeholder="Name as it appears on card" required data-stripe="cvc" />
                                 </div>
                             </div>
-                            <div class="">
-                                <div class="">
+                            <div class="col-xs-4 col-md-4">
+                                <div class="form-group">
                                     <label for="cvCode">EXPIRY</label>
-                                    <input type="password" class="" name="cvCode" placeholder="MM/YY" required data-stripe="cvc" />
+                                    <input type="text" class="form-control" name="cvCode" placeholder="MM/YY" required data-stripe="cvc" />
                                 </div>
-                            </div>							
-                            <div class="">
-                                <div class="">
+                            </div>
+                            <div class="col-xs-3 col-md-3">
+                                <div class="form-group">
                                     <label for="cvCode">CV</label>
-                                    <input type="password" class="" name="cvCode" placeholder="Code" required data-stripe="cvc" />
+                                    <input type="text" class="form-control" name="cvCode" placeholder="Code" required data-stripe="cvc" />
                                 </div>
                             </div>
                         </div>
-                        <div class="">
-                            <div class="">
-                                <button class="" type="submit">Pay</button>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <button class="btn btn-success btn-block" type="submit">Pay</button>
                             </div>
                         </div>
                     </form>
